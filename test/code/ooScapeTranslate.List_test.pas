@@ -1,5 +1,5 @@
 {
-  Copyright (c) 2016, Vencejo Software
+  Copyright (c) 2018, Vencejo Software
   Distributed under the terms of the Modified BSD License
   The full license is distributed with this software
 }
@@ -17,7 +17,7 @@ uses
 {$ENDIF};
 
 type
-  TScapeTranslateListTest = class(TTestCase)
+  TScapeTranslateListTest = class sealed(TTestCase)
   published
     procedure TestApply;
   end;

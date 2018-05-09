@@ -8,7 +8,9 @@ program test;
 uses
   ooRunTest,
   ooScapeTranslate.List_test in '..\code\ooScapeTranslate.List_test.pas',
-  ooScapeTranslate_test in '..\code\ooScapeTranslate_test.pas';
+  ooScapeTranslate_test in '..\code\ooScapeTranslate_test.pas',
+  ooScapeTranslate.List in '..\..\code\ooScapeTranslate.List.pas',
+  ooScapeTranslate in '..\..\code\ooScapeTranslate.pas';
 
 {R *.RES}
 

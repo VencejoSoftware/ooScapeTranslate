@@ -1,0 +1,68 @@
+object MainForm: TMainForm
+  Left = 0
+  Height = 271
+  Top = 0
+  Width = 447
+  Caption = 'Demo form'
+  ClientHeight = 271
+  ClientWidth = 447
+  Color = clBtnFace
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  LCLVersion = '1.8.2.0'
+  object lblItem: TLabel
+    Left = 10
+    Height = 13
+    Top = 13
+    Width = 22
+    Caption = 'Item'
+    ParentColor = False
+  end
+  object edText: TMemo
+    Left = 8
+    Height = 232
+    Top = 39
+    Width = 431
+    Align = alCustom
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    TabOrder = 0
+  end
+  object btnAdd: TButton
+    Left = 167
+    Height = 25
+    Top = 8
+    Width = 75
+    Caption = 'Add'
+    OnClick = btnAddClick
+    TabOrder = 1
+  end
+  object edScape: TEdit
+    Left = 47
+    Height = 21
+    Top = 10
+    Width = 34
+    MaxLength = 1
+    TabOrder = 2
+  end
+  object edRepresentation: TEdit
+    Left = 87
+    Height = 21
+    Top = 10
+    Width = 74
+    TabOrder = 3
+  end
+  object btnApply: TButton
+    Left = 364
+    Height = 25
+    Top = 8
+    Width = 75
+    Align = alCustom
+    Anchors = [akTop, akRight]
+    Caption = 'Apply'
+    OnClick = btnApplyClick
+    TabOrder = 4
+  end
+end
