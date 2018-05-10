@@ -1,4 +1,5 @@
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+[![Build Status](https://travis-ci.org/VencejoSoftware/ooScapeTranslate.svg?branch=master)](https://travis-ci.org/VencejoSoftware/ooScapeTranslate)
 
 # ooScapeTranslate - Object pascal scape translate
 Objects to define a catalog with special scape letters and his representation, used to replace this special letters in any text
