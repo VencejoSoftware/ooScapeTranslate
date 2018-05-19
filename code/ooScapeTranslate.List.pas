@@ -16,7 +16,7 @@ interface
 
 uses
   SysUtils,
-  ooList, ooList.Enumerable,
+  ooList, ooIterableList,
   ooScapeTranslate;
 
 type
@@ -58,7 +58,7 @@ type
 
   TScapeTranslateList = class sealed(TInterfacedObject, IScapeTranslateList)
   strict private
-    _List: IGenericListEnumerable<IScapeTranslate>;
+    _List: IIterableList<IScapeTranslate>;
   public
     function Apply(const Text: string): String;
     function Add(const Item: IScapeTranslate): TIntegerIndex;
@@ -84,7 +84,7 @@ end;
 
 constructor TScapeTranslateList.Create;
 begin
-  _List := TListEnumerable<IScapeTranslate>.Create;
+  _List := TIterableList<IScapeTranslate>.New;
 end;
 
 class function TScapeTranslateList.New: IScapeTranslateList;
