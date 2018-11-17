@@ -3,13 +3,13 @@
   Distributed under the terms of the Modified BSD License
   The full license is distributed with this software
 }
-unit ooScapeTranslate.List_test;
+unit ScapeTranslateList_test;
 
 interface
 
 uses
   SysUtils, DateUtils,
-  ooScapeTranslate, ooScapeTranslate.List,
+  ScapeTranslate, ScapeTranslateList,
 {$IFDEF FPC}
   fpcunit, testregistry
 {$ELSE}

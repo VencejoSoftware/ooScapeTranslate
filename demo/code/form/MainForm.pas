@@ -5,7 +5,7 @@ interface
 uses
   Windows, SysUtils, Classes, Graphics, Controls, Forms,
   Dialogs, ExtCtrls, StdCtrls,
-  ooScapeTranslate, ooScapeTranslate.List;
+  ScapeTranslate, ScapeTranslateList;
 
 type
   TMainForm = class(TForm)

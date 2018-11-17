@@ -1,15 +1,15 @@
 {
-  Copyright (c) 2016, Vencejo Software
+  Copyright (c) 2018, Vencejo Software
   Distributed under the terms of the Modified BSD License
   The full license is distributed with this software
 }
-unit ooScapeTranslate_test;
+unit ScapeTranslate_test;
 
 interface
 
 uses
   SysUtils, DateUtils,
-  ooScapeTranslate,
+  ScapeTranslate,
 {$IFDEF FPC}
   fpcunit, testregistry
 {$ELSE}
@@ -17,7 +17,7 @@ uses
 {$ENDIF};
 
 type
-  TScapeTranslateTest = class(TTestCase)
+  TScapeTranslateTest = class sealed(TTestCase)
   published
     procedure TestCharacter;
   end;
