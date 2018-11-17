@@ -10,14 +10,14 @@
   @author Vencejo Software <www.vencejosoft.com>
 }
 {$ENDREGION}
-unit ooScapeTranslate.List;
+unit ScapeTranslateList;
 
 interface
 
 uses
   SysUtils,
-  ooList, ooIterableList,
-  ooScapeTranslate;
+  List, IterableList,
+  ScapeTranslate;
 
 type
 {$REGION 'documentation'}

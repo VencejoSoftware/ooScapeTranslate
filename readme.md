@@ -22,6 +22,9 @@ end;
 ### Demo
 See demo folder.
 
+## Dependencies
+* [ooGeneric](https://github.com/VencejoSoftware/ooGeneric.git) - Generic object oriented list
+
 ## Built With
 * [Delphi&reg;](https://www.embarcadero.com/products/rad-studio) - Embarcadero&trade; commercial IDE
 * [Lazarus](https://www.lazarus-ide.org/) - The Lazarus project

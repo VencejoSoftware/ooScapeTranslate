@@ -122,19 +122,19 @@
         <IsPartOfProject Value="True"/>
       </Unit0>
       <Unit1>
-        <Filename Value="..\code\ooScapeTranslate.List_test.pas"/>
+        <Filename Value="..\..\code\ScapeTranslate.pas"/>
         <IsPartOfProject Value="True"/>
       </Unit1>
       <Unit2>
-        <Filename Value="..\code\ooScapeTranslate_test.pas"/>
+        <Filename Value="..\..\code\ScapeTranslateList.pas"/>
         <IsPartOfProject Value="True"/>
       </Unit2>
       <Unit3>
-        <Filename Value="..\..\code\ooScapeTranslate.List.pas"/>
+        <Filename Value="..\code\ScapeTranslate_test.pas"/>
         <IsPartOfProject Value="True"/>
       </Unit3>
       <Unit4>
-        <Filename Value="..\..\code\ooScapeTranslate.pas"/>
+        <Filename Value="..\code\ScapeTranslateList_test.pas"/>
         <IsPartOfProject Value="True"/>
       </Unit4>
     </Units>
